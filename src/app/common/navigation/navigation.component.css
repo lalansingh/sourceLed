@@ -1,0 +1,50 @@
+.logo{
+    width: 97px;
+    margin-left: -143px;
+    margin-top: 0px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: black !important;
+  letter-spacing: 3px;
+  font-size: 14px;
+  font-weight: 700;
+  }
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color:#428bca !important;
+  }
+  .logo-text-s-letter{
+    font-size: 35px;
+    margin-top: -17px;
+    margin-bottom: -7px;
+    font-family: fantasy;
+    font-weight: bold;
+    color: darkgray;
+  }
+  .logo-text-other-letter{
+    font-size: 24px;
+    margin-top: -9px;
+    margin-bottom: -7px;
+    color: black;
+    letter-spacing: 3px;
+    font-weight: bold;
+  }
+  .logo-text-o-letter{
+    font-size: 23px;
+    margin-top: -16px;
+    margin-bottom: -15px;
+    font-family: fantasy;
+    color: darkgray;
+  }
+  .logo-container{
+    /* padding-left: 0px; */
+    height: 40px;
+    /* margin-top: -22px; */
+    /* margin-left: -127px; */
+  }
+  .nav-header{
+    background-color: #e7e7e7;
+    height: 80px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+  }
+  

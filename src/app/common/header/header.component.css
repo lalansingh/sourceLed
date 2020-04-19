@@ -1,0 +1,44 @@
+
+body {
+    padding-top: 56px;
+  }
+  
+  .carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .portfolio-item {
+    margin-bottom: 30px;
+  }
+
+  .nav-header-content-h3{
+    font-size: 30px !important;
+    color: midnightblue !important;
+  }
+  .nav-header-content-p{
+    font-size: 30px !important;
+    color: midnightblue !important;
+  }
+  .carousel-indicators li{
+    background-color:black !important;
+  }
+  .carousel-control-next-icon{
+    background-image:url("/assets/images/header-images/next-p.png") !important;
+    height: 44px;
+    width: 44px;
+  }
+  .carousel-control-prev-icon{
+    background-image:url("/assets/images/header-images/next-p.png") !important;
+    transform: rotate(180deg);
+    height: 44px;
+    width: 44px;
+  }
+  .carousel-item{
+    background-color: cadetblue !important;
+  }

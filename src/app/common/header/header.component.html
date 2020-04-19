@@ -1,0 +1,27 @@
+<header>
+  <div id="carouselExampleIndicators" style="border-bottom: 5px solid #2125290d;" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li *ngFor="let item of slideimages; let i=index" data-target="#carouselExampleIndicators"
+       data-slide-to="{i}" [ngClass]="{'active':i==0}"></li>
+      <!-- <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div *ngFor="let item of slideimages; let i=index" class="carousel-item" [ngClass]="{'active':i==0}" [ngStyle]="{'background-image': 'url('+'/assets/images/header/'+item.image+')'}">
+        <div class="carousel-caption d-none d-md-block">
+          <!-- <h3 class="nav-header-content-h3">{{item.title}}</h3>
+          <h3 class="nav-header-content-h3">{{item.description}}</h3> -->
+          <!-- <p class="nav-header-content-p">{{item.description}}</p> -->
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</header>
